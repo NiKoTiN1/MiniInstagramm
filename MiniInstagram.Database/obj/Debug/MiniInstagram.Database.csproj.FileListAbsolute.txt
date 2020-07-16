@@ -1,0 +1,14 @@
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\MiniInstagram.Database.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\MiniInstagram.Database.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.xml
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.csprojAssemblyReference.cache
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.csproj.CoreCompileInputs.cache
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.csproj.CopyComplete
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\MiniInstagram.Database.dll.config
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.Migrations.InitMigration.resources
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.csproj.GenerateResource.cache

@@ -246,6 +246,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MiniInstagram.Database\MiniInstagram.Database.csproj">
+      <Project>{03f5fb60-92c1-4dd4-b9bc-b24f556d6a4f}</Project>
+      <Name>MiniInstagram.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MiniInstagram.Logic\MiniInstagram.Logic.csproj">
+      <Project>{7d69b9c9-c066-44c5-ae56-7d6ef3e8904e}</Project>
+      <Name>MiniInstagram.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MiniInstagram.ViewModels\MiniInstagram.ViewModels.csproj">
+      <Project>{e0e32b63-2471-4580-8470-cab13213e9b2}</Project>
+      <Name>MiniInstagram.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

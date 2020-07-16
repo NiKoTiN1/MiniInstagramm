@@ -1,0 +1,6 @@
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\bin\Debug\MiniInstagram.ViewModels.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\bin\Debug\MiniInstagram.ViewModels.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\obj\Debug\MiniInstagram.ViewModels.csprojAssemblyReference.cache
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\obj\Debug\MiniInstagram.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\obj\Debug\MiniInstagram.ViewModels.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.ViewModels\obj\Debug\MiniInstagram.ViewModels.pdb

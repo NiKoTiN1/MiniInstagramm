@@ -93,3 +93,12 @@ C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\obj\Debug\MiniInstag
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\obj\Debug\MiniInstagram.Web.csproj.CopyComplete
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\obj\Debug\MiniInstagram.Web.dll
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\obj\Debug\MiniInstagram.Web.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Database.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Logic.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.ViewModels.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\EntityFramework.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Database.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Logic.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.ViewModels.pdb
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\EntityFramework.xml
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Database.dll.config
