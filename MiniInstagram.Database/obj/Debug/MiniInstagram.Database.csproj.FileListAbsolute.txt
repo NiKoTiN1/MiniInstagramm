@@ -10,5 +10,3 @@ C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniI
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\MiniInstagram.Database.dll.config
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.Migrations.InitMigration.resources
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Database\obj\Debug\MiniInstagram.Database.csproj.GenerateResource.cache

@@ -102,3 +102,5 @@ C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Lo
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.ViewModels.pdb
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\EntityFramework.xml
 C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\MiniInstagram.Database.dll.config
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Web\bin\EntityFramework.SqlServer.xml
