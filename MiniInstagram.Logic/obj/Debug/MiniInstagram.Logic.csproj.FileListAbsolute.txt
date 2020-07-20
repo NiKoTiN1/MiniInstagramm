@@ -1,6 +1,0 @@
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\bin\Debug\MiniInstagram.Logic.dll
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\bin\Debug\MiniInstagram.Logic.pdb
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\obj\Debug\MiniInstagram.Logic.csprojAssemblyReference.cache
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\obj\Debug\MiniInstagram.Logic.csproj.CoreCompileInputs.cache
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\obj\Debug\MiniInstagram.Logic.dll
-C:\Users\rabot\source\repos\MiniInstagram\MiniInstagram.Logic\obj\Debug\MiniInstagram.Logic.pdb
