@@ -1,3 +1,5 @@
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using MiniInstagram.Database;
 using MiniInstagram.Web.Models;
 using System;
@@ -20,21 +22,31 @@ namespace MiniInstagram.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            using(DBContext db = new DBContext())
+            using (DBContext db = new DBContext())
             {
-                Image image1 = new Image { Path = "1234", category = Category.Other, UploadDate = DateTime.Now, User = new ApplicationUser(), Id = Guid.NewGuid() };
-                Image image2 = new Image { Path = "4321", category = Category.football, UploadDate = DateTime.UtcNow, User = new ApplicationUser(), Id = Guid.NewGuid() };
-                db.Images.Add(image1);
-                db.Images.Add(image2);
-                db.SaveChanges();
-                Console.WriteLine("Success save!");
-
-                var images = db.Images;
-                foreach(Image image in images)
+                IdentityRole adminRole = new IdentityRole()
                 {
-                    Console.WriteLine(image.Path);
-                }
-                Console.Read();
+                    Name = "admin"
+                };
+                IdentityRole userRole = new IdentityRole()
+                {
+                    Name = "user"
+                };
+                ApplicationUser user1 = new ApplicationUser
+                {
+                    UserName = "NBNN"
+                };
+                ApplicationUser user2 = new ApplicationUser
+                {
+                    UserName = "NBNN1111"
+                };
+                db.Users.Add(user1);
+                db.Users.Add(user2);
+
+                db.Roles.Add(adminRole);
+                db.Roles.Add(userRole);
+
+                db.SaveChanges();
             }
         }
     }
