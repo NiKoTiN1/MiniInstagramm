@@ -1,39 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Data;
+using MiniInstagram.Database;
+using MiniInstagram.Web.Models;
 
 namespace MiniInstagram.Web.Controllers
 {
     public class ValuesController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        DataBaseContext db = new DataBaseContext();
+
+        public IEnumerable<Image> GetBooks()
         {
-            return new string[] { "value1", "value2" };
+            return db.Images;
         }
 
-        // GET api/values/5
-        public string Get(int id)
+        public Image GetImage(int id)
         {
-            return "value";
+            Image image = db.Images.Find(id);
+            return image;
         }
 
-        // POST api/values
-        public void Post([FromBody] string value)
+        [HttpPost]
+        public void CreateImage([FromBody] Image image)
         {
+            db.Images.Add(image);
+            db.SaveChanges();
         }
 
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public void EditBook(int id, [FromBody] Image image)
         {
+            Guid ID = Guid.Parse(id.ToString());
+            if (ID == image.Id)
+            {
+                db.Entry(image).State = EntityState.Modified;
+
+                db.SaveChanges();
+            }
         }
 
-        // DELETE api/values/5
-        public void Delete(int id)
+        public void DeleteBook(int id)
         {
+            Image image = db.Images.Find(id);
+            if (image != null)
+            {
+                db.Images.Remove(image);
+                db.SaveChanges();
+            }
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 }

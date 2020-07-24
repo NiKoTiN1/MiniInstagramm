@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Data.Entity;
 
 namespace MiniInstagram.Web
 {
@@ -17,37 +18,13 @@ namespace MiniInstagram.Web
     {
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer(new DbInitialaser());
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            using (DBContext db = new DBContext())
-            {
-                IdentityRole adminRole = new IdentityRole()
-                {
-                    Name = "admin"
-                };
-                IdentityRole userRole = new IdentityRole()
-                {
-                    Name = "user"
-                };
-                ApplicationUser user1 = new ApplicationUser
-                {
-                    UserName = "NBNN"
-                };
-                ApplicationUser user2 = new ApplicationUser
-                {
-                    UserName = "NBNN1111"
-                };
-                db.Users.Add(user1);
-                db.Users.Add(user2);
-
-                db.Roles.Add(adminRole);
-                db.Roles.Add(userRole);
-
-                db.SaveChanges();
-            }
         }
     }
 }

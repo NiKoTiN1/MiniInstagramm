@@ -12,10 +12,6 @@ namespace MiniInstagram.Web.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-            string connectionString = ConfigurationManager.ConnectionStrings["DBContext"].ConnectionString;
-            Console.WriteLine(connectionString);
-
-            Console.Read();
             return View();
         }
     }

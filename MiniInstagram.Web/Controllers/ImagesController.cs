@@ -16,7 +16,7 @@ namespace MiniInstagram.Web.Controllers
 {
     public class ImagesController : ApiController
     {
-        private DBContext db = new DBContext();
+        private DataBaseContext db = new DataBaseContext();
 
         // GET: api/Images
         public IQueryable<Image> GetImages()
@@ -129,7 +129,7 @@ namespace MiniInstagram.Web.Controllers
 
         private bool ImageExists(Guid id)
         {
-            return db.Images.Count(e => e.Id == id) > 0;
+            return db.Images.Any(e => e.Id == id);
         }
     }
 }

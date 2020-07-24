@@ -6,19 +6,17 @@
     using System.Data.Entity;
     using System.Linq;
 
-    public class DBContext : IdentityDbContext<ApplicationUser>
+    public class DataBaseContext : IdentityDbContext<ApplicationUser>
     {
-        public DBContext()
+        public DataBaseContext()
             : base("name=DBContext")
         {
             Configuration.ProxyCreationEnabled = false;
             Configuration.LazyLoadingEnabled = false;
-            Database.SetInitializer(new CreateDatabaseIfNotExists<DBContext>());
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DBContext>());
         }
-        public static DBContext Create()
+        public static DataBaseContext Create()
         {
-            return new DBContext();
+            return new DataBaseContext();
         }
 
         public DbSet<Image> Images { get; set; }

@@ -44,6 +44,8 @@ namespace MiniInstagram.Web.Controllers
         {
             get
             {
+                var manager = HttpContext.Current.GetOwinContext().GetUserManager<UserManager<ApplicationUser>>();
+
                 return _userManager ?? Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
             private set
@@ -383,7 +385,6 @@ namespace MiniInstagram.Web.Controllers
                 _userManager.Dispose();
                 _userManager = null;
             }
-
             base.Dispose(disposing);
         }
 
